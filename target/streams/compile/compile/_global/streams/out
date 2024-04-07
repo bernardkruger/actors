@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E171] Type Error: C:\learning\zymposium\actors\src\main\scala\actors\Actor.scala:20:50 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m20 |[0m      shutdownRef <- Ref.make([31mfalse[0m).withFinalizer()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0mmissing argument for parameter finalizer of [33mmethod[0m [35mwithFinalizer[0m in [33mtrait[0m [35mZIO[0m: (finalizer: zio.Ref[A] => zio.URIO[R1, Any])[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  ([33mimplicit [0mtrace: zio.Trace): zio.ZIO[R1 & zio.Scope, Nothing, zio.Ref[A]][0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

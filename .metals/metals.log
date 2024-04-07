@@ -1,0 +1,517 @@
+2024.04.05 20:53:17 INFO  Started: Metals version 1.2.2 in folders 'C:\learning\zymposium\actors' for client Visual Studio Code 1.87.2.
+20:53:18.920 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+20:53:18.926 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+20:53:18.927 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+20:53:18.934 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+20:53:18.934 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e ...
+20:53:18.935 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+20:53:18.935 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+20:53:18.936 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e ...
+20:53:18.937 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/C:/Users/Bernard/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+20:53:18.947 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+20:53:18.947 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+20:53:18.948 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+20:53:18.948 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+20:53:18.948 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+20:53:18.948 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+20:53:18.958 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+20:53:18.959 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+20:53:18.960 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+20:53:18.961 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+20:53:18.962 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+20:53:19.164 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:C:\learning\zymposium\actors\.metals\metals (H2 2.2)
+20:53:19.164 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+20:53:19.164 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+20:53:19.166 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+20:53:19.167 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+20:53:19.175 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+20:53:19.179 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+20:53:19.179 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+20:53:19.195 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+20:53:19.204 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+20:53:19.224 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+20:53:19.224 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+20:53:19.224 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+20:53:19.225 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+20:53:19.225 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+20:53:19.226 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+20:53:19.227 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+20:53:19.227 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+20:53:19.227 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+20:53:19.227 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+20:53:19.252 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+20:53:19.259 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.062s)
+20:53:19.264 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+20:53:19.270 [pool-1-thread-1] INFO org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+20:53:19.275 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing  ...
+20:53:19.291 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 1: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+20:53:19.292 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 14: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+20:53:19.293 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE TABLE IF NOT EXISTS "PUBLIC"."flyway_schema_history" (
+    "installed_rank" INT NOT NULL,
+    "version" VARCHAR(50),
+    "description" VARCHAR(200) NOT NULL,
+    "type" VARCHAR(20) NOT NULL,
+    "script" VARCHAR(1000) NOT NULL,
+    "checksum" INT,
+    "installed_by" VARCHAR(100) NOT NULL,
+    "installed_on" TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "execution_time" INT NOT NULL,
+    "success" BOOLEAN NOT NULL,
+    CONSTRAINT "flyway_schema_history_pk" PRIMARY KEY ("installed_rank")
+) AS SELECT -1, NULL, '<< Flyway Schema History table created >>', 'TABLE', '', NULL, 'SA', CURRENT_TIMESTAMP, 0, TRUE
+20:53:19.304 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+20:53:19.304 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: CREATE INDEX "PUBLIC"."flyway_schema_history_s_idx" ON "PUBLIC"."flyway_schema_history" ("success")
+20:53:19.311 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+20:53:19.311 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Created Schema History table "PUBLIC"."flyway_schema_history"
+20:53:19.329 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": << Empty Schema >>
+20:53:19.329 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V1__Create_tables.sql ...
+20:53:19.332 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+20:53:19.333 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 12: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+20:53:19.335 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 19: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+20:53:19.337 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 27: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+20:53:19.338 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 34: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+20:53:19.341 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "1 - Create tables" ...
+20:53:19.343 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "1 - Create tables"
+20:53:19.344 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table dependency_source(
+  text_document_uri varchar primary key,
+  build_target_uri varchar not null
+)
+20:53:19.347 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+20:53:19.348 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between library dependency sources under .metals/readonly/**
+-- and worksheets they belong to. Required to know what classpath to use
+-- for compiling dependency sources.
+create table worksheet_dependency_source(
+  text_document_uri varchar primary key,
+  worksheet_uri varchar not null
+)
+20:53:19.350 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+20:53:19.351 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The relationship between what library dependency sources under .metals/readonly/**
+-- map to which build targets.
+create table sbt_digest(
+  md5 varchar,
+  status tinyint not null,
+  when_recorded timestamp
+)
+20:53:19.352 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+20:53:19.353 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Which window/showMessage and window/showMessageRequest dialogues have been dismissed
+-- by the user via "Don't show again" or closed by clicking on "x".
+create table dismissed_notification(
+  id int,
+  when_dismissed timestamp,
+  when_expires timestamp
+)
+20:53:19.355 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+20:53:19.355 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- The choice of build tool when multiple build tool files are found in a workspace
+create table chosen_build_tool(
+  build_tool varchar primary key
+)
+20:53:19.358 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+20:53:19.359 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "1 - Create tables"
+20:53:19.364 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+20:53:19.375 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V2__Server_discovery.sql ...
+20:53:19.380 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 4: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+20:53:19.381 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "2 - Server discovery" ...
+20:53:19.382 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "2 - Server discovery"
+20:53:19.383 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- For each unique combination of installed build servers we select one server.
+-- The md5 checksum is computed from the names of the installed build servers, and
+-- the selected server is the server which the user chose for this workspace.
+create table chosen_build_server(
+  md5 varchar primary key,
+  selected_server varchar,
+  when_recorded timestamp
+)
+20:53:19.384 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+20:53:19.386 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "2 - Server discovery"
+20:53:19.389 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+20:53:19.393 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V3__Jar_symbols.sql ...
+20:53:19.396 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+20:53:19.397 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 7: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+20:53:19.400 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 15: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+20:53:19.401 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "3 - Jar symbols" ...
+20:53:19.402 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "3 - Jar symbols"
+20:53:19.402 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Indexed jars, the MD5 digest of path, modified time and size as key
+create table indexed_jar(
+  id int auto_increment unique,
+  md5 varchar primary key
+)
+20:53:19.413 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+20:53:19.413 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Top Level Symbols per jar, allow for multiple jars with same symbols and paths
+create table toplevel_symbol(
+  symbol varchar not null,
+  path varchar not null,
+  jar int,
+  foreign key (jar) references indexed_jar (id) on delete cascade,
+  primary key (jar, path, symbol)
+)
+20:53:19.426 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+20:53:19.426 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Create index to speedup lookup of jar symbols
+create index toplevel_symbol_jar on toplevel_symbol(jar)
+20:53:19.429 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+20:53:19.429 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "3 - Jar symbols"
+20:53:19.434 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+20:53:19.438 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.parser.Parser -- Parsing V4__Fingerprints.sql ...
+20:53:19.442 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.ParserSqlScript -- Found statement at line 2: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+20:53:19.443 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Starting migration of schema "PUBLIC" to version "4 - Fingerprints" ...
+20:53:19.444 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Migrating schema "PUBLIC" to version "4 - Fingerprints"
+20:53:19.444 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- Executing SQL: -- Fingerprints saved between invocations
+create table fingerprints(
+  path varchar not null,
+  text varchar not null,
+  md5 varchar not null,
+  id int auto_increment unique
+)
+20:53:19.447 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.sqlscript.DefaultSqlScriptExecutor -- 0 rows affected
+20:53:19.447 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbMigrate -- Successfully completed migration of schema "PUBLIC" to version "4 - Fingerprints"
+20:53:19.450 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory -- Schema History table "PUBLIC"."flyway_schema_history" successfully updated to reflect changes
+20:53:19.461 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.054s)
+20:53:19.480 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 37 of 100M
+2024.04.05 20:53:19 WARN  Build server is not auto-connectable.
+2024.04.05 20:53:38 INFO  no build target found for C:\learning\zymposium\actors\build.sbt. Using presentation compiler with project's scala-library version: 3.3.1
+Apr 05, 2024 8:53:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.04.05 20:53:39 WARN  no build target for: C:\learning\zymposium\actors\build.sbt
+2024.04.05 20:53:39 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.9.8 -jar C:\Users\Bernard\AppData\Local\Temp\metals13054661150847490210\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.04.05 20:53:42 WARN  Could not find semantic tokens for: file:///C:/learning/zymposium/actors/build.sbt
+2024.04.05 20:53:42 INFO  time: code lens generation in 2.84s
+2024.04.05 20:53:42 INFO  time: code lens generation in 3s
+2024.04.05 20:53:42 INFO  time: code lens generation in 2.86s
+2024.04.05 20:53:42 WARN  Could not find semantic tokens for: file:///C:/learning/zymposium/actors/build.sbt
+2024.04.05 20:53:45 INFO  [info] Updated file C:\learning\zymposium\actors\project\build.properties: set sbt.version to 1.9.8
+2024.04.05 20:53:45 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 21)
+2024.04.05 20:53:49 INFO  [info] loading global plugins from C:\Users\Bernard\.sbt\1.0\plugins
+2024.04.05 20:54:02 INFO  [info] loading settings for project actors-build-build from metals.sbt ...
+2024.04.05 20:54:02 INFO  [info] loading project definition from C:\learning\zymposium\actors\project\project
+2024.04.05 20:54:05 INFO  [info] loading settings for project actors-build from metals.sbt ...
+2024.04.05 20:54:05 INFO  [info] loading project definition from C:\learning\zymposium\actors\project
+2024.04.05 20:54:13 INFO  [success] Generated .bloop\actors-build.json
+2024.04.05 20:54:13 INFO  [success] Total time: 7 s, completed Apr 5, 2024, 8:54:13 PM
+2024.04.05 20:54:15 INFO  [info] loading settings for project actors from build.sbt ...
+2024.04.05 20:54:15 INFO  [info] set current project to actors (in build file:/C:/learning/zymposium/actors/)
+2024.04.05 20:54:18 INFO  [success] Generated .bloop\actors-test.json
+2024.04.05 20:54:18 INFO  [success] Generated .bloop\actors.json
+2024.04.05 20:54:18 INFO  [success] Total time: 2 s, completed Apr 5, 2024, 8:54:18 PM
+2024.04.05 20:54:18 INFO  time: ran 'sbt bloopInstall' in 38s
+2024.04.05 20:54:18 INFO  Attempting to connect to the build server...
+2024.04.05 20:54:18 INFO  Bloop uses C:\Users\Bernard\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Bernard\.bloop\bloop.json
+2024.04.05 20:54:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\learning\zymposium\actors\.metals\bsp.trace.json or C:\Users\Bernard\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.05 20:54:24 INFO  Attempting to connect to the build server...
+2024.04.05 20:54:24 INFO  Bloop uses C:\Users\Bernard\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Bernard\.bloop\bloop.json
+2024.04.05 20:54:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\learning\zymposium\actors\project\.metals\bsp.trace.json or C:\Users\Bernard\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.05 20:54:24 INFO  time: Connected to build server in 6.82s
+2024.04.05 20:54:24 INFO  Connected to Build server: Bloop v1.5.15
+2024.04.05 20:54:25 INFO  time: Imported build in 0.18s
+2024.04.05 20:54:30 INFO  Failed to resolve mtags for 3.4.0
+2024.04.05 20:54:33 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.9.8 -jar C:\Users\Bernard\AppData\Local\Temp\metals12762631029537386486\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.04.05 20:54:38 INFO  time: code lens generation in 9.12s
+2024.04.05 20:54:38 INFO  time: code lens generation in 4.98s
+2024.04.05 20:54:39 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 21)
+2024.04.05 20:54:43 INFO  [info] loading global plugins from C:\Users\Bernard\.sbt\1.0\plugins
+2024.04.05 20:54:44 INFO  time: code lens generation in 2.31s
+2024.04.05 20:54:46 INFO  [info] loading settings for project actors-build-build from metals.sbt ...
+2024.04.05 20:54:46 INFO  [info] loading project definition from C:\learning\zymposium\actors\project\project
+2024.04.05 20:54:47 INFO  [info] loading settings for project actors-build from metals.sbt ...
+2024.04.05 20:54:47 INFO  [info] loading project definition from C:\learning\zymposium\actors\project
+2024.04.05 20:54:54 INFO  [success] Generated .bloop\actors-build.json
+2024.04.05 20:54:54 INFO  [success] Total time: 7 s, completed Apr 5, 2024, 8:54:55 PM
+2024.04.05 20:54:54 INFO  [info] loading settings for project actors from build.sbt ...
+2024.04.05 20:54:56 INFO  [info] set current project to actors (in build file:/C:/learning/zymposium/actors/)
+2024.04.05 20:54:57 INFO  [success] Generated .bloop\actors.json
+2024.04.05 20:54:57 INFO  [success] Generated .bloop\actors-test.json
+2024.04.05 20:54:57 INFO  [success] Total time: 1 s, completed Apr 5, 2024, 8:54:57 PM
+2024.04.05 20:54:57 INFO  time: ran 'sbt bloopInstall' in 23s
+2024.04.05 20:54:57 INFO  Disconnecting from Bloop session...
+2024.04.05 20:54:57 INFO  Shut down connection with build server.
+2024.04.05 20:54:57 INFO  Shut down connection with build server.
+2024.04.05 20:54:57 INFO  Attempting to connect to the build server...
+2024.04.05 20:54:57 INFO  Bloop uses C:\Users\Bernard\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Bernard\.bloop\bloop.json
+2024.04.05 20:54:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\learning\zymposium\actors\.metals\bsp.trace.json or C:\Users\Bernard\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.05 20:54:57 INFO  Attempting to connect to the build server...
+2024.04.05 20:54:57 INFO  Bloop uses C:\Users\Bernard\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Bernard\.bloop\bloop.json
+2024.04.05 20:54:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\learning\zymposium\actors\project\.metals\bsp.trace.json or C:\Users\Bernard\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.05 20:54:57 INFO  time: Connected to build server in 0.32s
+2024.04.05 20:54:57 INFO  Connected to Build server: Bloop v1.5.15
+2024.04.05 20:54:57 INFO  time: Imported build in 0.15s
+2024.04.05 20:55:03 INFO  time: indexed workspace in 37s
+2024.04.05 20:55:04 INFO  time: indexed workspace in 6.36s
+Apr 05, 2024 8:55:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 104
+Apr 05, 2024 8:55:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 105
+Apr 05, 2024 8:55:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 106
+Apr 05, 2024 8:55:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 107
+Apr 05, 2024 8:55:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 109
+Apr 05, 2024 8:55:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 110
+Apr 05, 2024 8:55:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 111
+Apr 05, 2024 8:55:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 113
+Apr 05, 2024 8:55:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 115
+Apr 05, 2024 8:55:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 116
+Apr 05, 2024 8:55:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 117
+2024.04.05 20:55:13 INFO  time: code lens generation in 1.33s
+2024.04.05 20:55:13 INFO  time: code lens generation in 1.36s
+2024.04.05 20:55:13 INFO  time: code lens generation in 1.28s
+2024.04.05 20:55:13 INFO  time: code lens generation in 1.08s
+2024.04.05 20:55:13 INFO  time: code lens generation in 9.73s
+2024.04.05 20:55:20 INFO  time: code lens generation in 2.68s
+2024.04.05 20:55:29 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Bernard\AppData\Local\Temp\metals15328981555645468184\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.04.05 20:55:32 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 21)
+2024.04.05 20:55:35 INFO  [info] loading global plugins from C:\Users\Bernard\.sbt\1.0\plugins
+2024.04.05 20:55:38 INFO  [info] loading settings for project actors-build-build from metals.sbt ...
+2024.04.05 20:55:38 INFO  [info] loading project definition from C:\learning\zymposium\actors\project\project
+2024.04.05 20:55:39 INFO  [info] loading settings for project actors-build from metals.sbt ...
+2024.04.05 20:55:39 INFO  [info] loading project definition from C:\learning\zymposium\actors\project
+2024.04.05 20:55:45 INFO  [success] Generated .bloop\actors-build.json
+2024.04.05 20:55:45 INFO  [success] Total time: 6 s, completed Apr 5, 2024, 8:55:45 PM
+2024.04.05 20:55:50 INFO  [info] loading settings for project actors from build.sbt ...
+2024.04.05 20:55:50 INFO  [info] set current project to actors (in build file:/C:/learning/zymposium/actors/)
+2024.04.05 20:55:52 INFO  [success] Generated .bloop\actors-test.json
+2024.04.05 20:55:52 INFO  [success] Generated .bloop\actors.json
+2024.04.05 20:55:52 INFO  [success] Total time: 2 s, completed Apr 5, 2024, 8:55:52 PM
+2024.04.05 20:55:52 INFO  time: ran 'sbt bloopInstall' in 23s
+2024.04.05 20:55:52 INFO  Disconnecting from Bloop session...
+2024.04.05 20:55:52 INFO  Shut down connection with build server.
+2024.04.05 20:55:52 INFO  Shut down connection with build server.
+2024.04.05 20:55:52 INFO  Attempting to connect to the build server...
+2024.04.05 20:55:52 INFO  Bloop uses C:\Users\Bernard\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Bernard\.bloop\bloop.json
+2024.04.05 20:55:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\learning\zymposium\actors\.metals\bsp.trace.json or C:\Users\Bernard\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.05 20:55:52 INFO  Attempting to connect to the build server...
+2024.04.05 20:55:52 INFO  Bloop uses C:\Users\Bernard\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Bernard\.bloop\bloop.json
+2024.04.05 20:55:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\learning\zymposium\actors\project\.metals\bsp.trace.json or C:\Users\Bernard\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.05 20:55:52 INFO  time: Connected to build server in 0.53s
+2024.04.05 20:55:52 INFO  Connected to Build server: Bloop v1.5.15
+2024.04.05 20:55:52 INFO  time: Imported build in 0.11s
+2024.04.05 20:55:57 INFO  time: indexed workspace in 3.68s
+2024.04.05 20:56:04 INFO  time: code lens generation in 6.63s
+Apr 05, 2024 8:56:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 180
+2024.04.05 20:56:40 WARN  Bloop is running with 1.8.0_292 but your code requires 21 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2024.04.05 20:56:40 INFO  compiling actors (1 scala source)
+2024.04.05 20:56:48 INFO  time: compiled actors in 8.48s
+2024.04.05 20:56:48 WARN  Bloop is running with 1.8.0_292 but your code requires 21 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2024.04.05 20:57:16 WARN  Bloop is running with 1.8.0_292 but your code requires 21 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2024.04.05 20:57:16 INFO  compiling actors (1 scala source)
+2024.04.05 20:57:26 INFO  time: compiled actors in 10s
+2024.04.05 20:58:00 WARN  Bloop is running with 1.8.0_292 but your code requires 21 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2024.04.05 20:58:00 INFO  compiling actors (1 scala source)
+2024.04.05 20:58:04 INFO  time: compiled actors in 4.42s
+2024.04.05 20:58:56 WARN  Bloop is running with 1.8.0_292 but your code requires 21 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2024.04.05 20:58:56 INFO  compiling actors (1 scala source)
+2024.04.05 20:58:59 INFO  time: compiled actors in 2.63s
+Apr 05, 2024 8:59:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 469
+Apr 05, 2024 9:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 593
+Apr 05, 2024 9:00:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 613
+2024.04.05 21:02:39 WARN  Bloop is running with 1.8.0_292 but your code requires 21 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2024.04.05 21:03:52 WARN  Bloop is running with 1.8.0_292 but your code requires 21 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2024.04.05 21:03:52 INFO  compiling actors (1 scala source)
+2024.04.05 21:03:54 INFO  time: compiled actors in 2.36s
+Apr 05, 2024 9:04:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1014
+2024.04.05 21:04:10 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Bernard\AppData\Local\Temp\metals8705847239357412810\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.04.05 21:04:13 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 21)
+Apr 05, 2024 9:04:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1047
+2024.04.05 21:04:14 WARN  Bloop is running with 1.8.0_292 but your code requires 21 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2024.04.05 21:04:16 INFO  [info] loading global plugins from C:\Users\Bernard\.sbt\1.0\plugins
+2024.04.05 21:04:18 INFO  [info] loading settings for project actors-build-build from metals.sbt ...
+2024.04.05 21:04:18 INFO  [info] loading project definition from C:\learning\zymposium\actors\project\project
+2024.04.05 21:04:18 INFO  [info] loading settings for project actors-build from metals.sbt ...
+2024.04.05 21:04:18 INFO  [info] loading project definition from C:\learning\zymposium\actors\project
+2024.04.05 21:04:25 INFO  [success] Generated .bloop\actors-build.json
+2024.04.05 21:04:25 INFO  [success] Total time: 5 s, completed Apr 5, 2024, 9:04:25 PM
+2024.04.05 21:04:29 INFO  [info] loading settings for project actors from build.sbt ...
+2024.04.05 21:04:29 INFO  [info] set current project to actors (in build file:/C:/learning/zymposium/actors/)
+2024.04.05 21:04:33 INFO  [warn] 
+2024.04.05 21:04:33 INFO  [warn] 	Note: Unresolved dependencies path:
+2024.04.05 21:04:33 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.
+2024.04.05 21:04:33 INFO  [warn] Removed stale C:\learning\zymposium\actors\.bloop\actors-test.json
+2024.04.05 21:04:33 INFO  [warn] Removed stale C:\learning\zymposium\actors\.bloop\actors.json
+2024.04.05 21:04:33 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading dev.zio:zio-stream_3:2.0.21
+2024.04.05 21:04:33 INFO  [error]   Not found
+2024.04.05 21:04:33 INFO  [error]   Not found
+2024.04.05 21:04:33 INFO  [error]   not found: C:\Users\Bernard\.ivy2\local\dev.zio\zio-stream_3\2.0.21\ivys\ivy.xml
+2024.04.05 21:04:33 INFO  [error]   not found: https://repo1.maven.org/maven2/dev/zio/zio-stream_3/2.0.21/zio-stream_3-2.0.21.pom
+2024.04.05 21:04:33 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+2024.04.05 21:04:33 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+2024.04.05 21:04:33 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+2024.04.05 21:04:33 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:134)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:147)
+2024.04.05 21:04:33 INFO  [error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:147)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:128)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:161)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3801)
+2024.04.05 21:04:33 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+2024.04.05 21:04:33 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
+2024.04.05 21:04:33 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+2024.04.05 21:04:33 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+2024.04.05 21:04:33 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+2024.04.05 21:04:33 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+2024.04.05 21:04:33 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+2024.04.05 21:04:33 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024.04.05 21:04:33 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading dev.zio:zio-stream_3:2.0.21
+2024.04.05 21:04:33 INFO  [error]   Not found
+2024.04.05 21:04:33 INFO  [error]   Not found
+2024.04.05 21:04:33 INFO  [error]   not found: C:\Users\Bernard\.ivy2\local\dev.zio\zio-stream_3\2.0.21\ivys\ivy.xml
+2024.04.05 21:04:33 INFO  [error]   not found: https://repo1.maven.org/maven2/dev/zio/zio-stream_3/2.0.21/zio-stream_3-2.0.21.pom
+2024.04.05 21:04:33 INFO  [error] Total time: 3 s, completed Apr 5, 2024, 9:04:33 PM
+2024.04.05 21:04:33 INFO  time: ran 'sbt bloopInstall' in 23s
+2024.04.05 21:04:33 ERROR sbt command failed: C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Bernard\AppData\Local\Temp\metals8705847239357412810\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2024.04.05 21:04:33 INFO  Disconnecting from Bloop session...
+2024.04.05 21:04:33 INFO  Shut down connection with build server.
+2024.04.05 21:04:33 INFO  Shut down connection with build server.
+2024.04.05 21:04:33 INFO  Attempting to connect to the build server...
+2024.04.05 21:04:33 INFO  Bloop uses C:\Users\Bernard\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Bernard\.bloop\bloop.json
+2024.04.05 21:04:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\learning\zymposium\actors\.metals\bsp.trace.json or C:\Users\Bernard\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.05 21:04:33 INFO  Attempting to connect to the build server...
+2024.04.05 21:04:33 INFO  Bloop uses C:\Users\Bernard\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Bernard\.bloop\bloop.json
+2024.04.05 21:04:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\learning\zymposium\actors\project\.metals\bsp.trace.json or C:\Users\Bernard\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.05 21:04:33 INFO  time: Connected to build server in 0.51s
+2024.04.05 21:04:33 INFO  Connected to Build server: Bloop v1.5.15
+2024.04.05 21:04:33 INFO  time: Imported build in 0.25s
+2024.04.05 21:04:38 INFO  time: code lens generation in 1.44s
+2024.04.05 21:04:38 INFO  time: indexed workspace in 4.36s
+2024.04.05 21:04:39 WARN  no build target for: C:\learning\zymposium\actors\src\main\scala\actors\Main.scala
+2024.04.05 21:04:44 INFO  running 'C:\Program Files\Java\jdk-21\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Bernard\AppData\Local\Temp\metals6028657072798809848\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.04.05 21:04:46 INFO  time: code lens generation in 4.45s
+2024.04.05 21:04:46 INFO  time: code lens generation in 3.31s
+2024.04.05 21:04:46 INFO  time: code lens generation in 6.46s
+2024.04.05 21:04:47 INFO  [info] welcome to sbt 1.9.8 (Oracle Corporation Java 21)
+2024.04.05 21:04:49 INFO  [info] loading global plugins from C:\Users\Bernard\.sbt\1.0\plugins
+2024.04.05 21:04:51 INFO  [info] loading settings for project actors-build-build from metals.sbt ...
+2024.04.05 21:04:51 INFO  [info] loading project definition from C:\learning\zymposium\actors\project\project
+2024.04.05 21:04:51 INFO  [info] loading settings for project actors-build from metals.sbt ...
+2024.04.05 21:04:51 INFO  [info] loading project definition from C:\learning\zymposium\actors\project
+2024.04.05 21:04:56 INFO  [success] Generated .bloop\actors-build.json
+2024.04.05 21:04:56 INFO  [success] Total time: 4 s, completed Apr 5, 2024, 9:04:56 PM
+2024.04.05 21:04:59 INFO  [info] loading settings for project actors from build.sbt ...
+2024.04.05 21:04:59 INFO  [info] set current project to actors (in build file:/C:/learning/zymposium/actors/)
+2024.04.05 21:05:02 INFO  [success] Generated .bloop\actors.json
+2024.04.05 21:05:02 INFO  [success] Generated .bloop\actors-test.json
+2024.04.05 21:05:02 INFO  [success] Total time: 2 s, completed Apr 5, 2024, 9:05:02 PM
+2024.04.05 21:05:02 INFO  time: ran 'sbt bloopInstall' in 18s
+2024.04.05 21:05:02 INFO  Disconnecting from Bloop session...
+2024.04.05 21:05:02 INFO  Shut down connection with build server.
+2024.04.05 21:05:02 INFO  Shut down connection with build server.
+2024.04.05 21:05:02 INFO  Attempting to connect to the build server...
+2024.04.05 21:05:02 INFO  Bloop uses C:\Users\Bernard\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Bernard\.bloop\bloop.json
+2024.04.05 21:05:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\learning\zymposium\actors\.metals\bsp.trace.json or C:\Users\Bernard\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.05 21:05:02 INFO  Attempting to connect to the build server...
+2024.04.05 21:05:02 INFO  Bloop uses C:\Users\Bernard\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10 defined at C:\Users\Bernard\.bloop\bloop.json
+2024.04.05 21:05:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\learning\zymposium\actors\project\.metals\bsp.trace.json or C:\Users\Bernard\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.04.05 21:05:02 INFO  time: Connected to build server in 0.52s
+2024.04.05 21:05:02 INFO  Connected to Build server: Bloop v1.5.15
+2024.04.05 21:05:06 INFO  time: indexed workspace in 3.32s
+2024.04.05 21:05:11 WARN  Bloop is running with 1.8.0_292 but your code requires 21 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2024.04.05 21:05:11 INFO  compiling actors (1 scala source)
+2024.04.05 21:05:15 INFO  skipping build import with status 'Installed'
+2024.04.05 21:05:16 INFO  time: compiled actors in 5.28s
+2024.04.05 21:05:17 INFO  time: code lens generation in 2.58s
+2024.04.05 21:05:17 INFO  time: code lens generation in 10s
+2024.04.05 21:05:17 INFO  time: code lens generation in 1.97s
+2024.04.05 21:05:17 INFO  time: code lens generation in 5.81s
+2024.04.05 21:05:25 WARN  Bloop is running with 1.8.0_292 but your code requires 21 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2024.04.05 21:05:48 WARN  Bloop is running with 1.8.0_292 but your code requires 21 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2024.04.05 21:05:48 INFO  compiling actors (1 scala source)
+2024.04.05 21:05:51 INFO  time: compiled actors in 3.12s
+2024.04.05 21:05:51 WARN  Bloop is running with 1.8.0_292 but your code requires 21 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2024.04.05 21:05:51 INFO  compiling actors (1 scala source)
+2024.04.05 21:05:52 WARN  Could not load snapshot text for C:\learning\zymposium\actors\src\main\scala\actors\Main.scala
+2024.04.05 21:05:52 INFO  time: compiled actors in 1.07s
+2024.04.05 21:05:58 WARN  Bloop is running with 1.8.0_292 but your code requires 21 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2024.04.05 21:05:58 INFO  compiling actors (1 scala source)
+2024.04.05 21:05:59 INFO  time: compiled actors in 1.17s
+2024.04.05 21:55:03 INFO  Shutting down server
+2024.04.05 21:55:03 INFO  shutting down Metals
+2024.04.05 21:55:03 INFO  Shut down connection with build server.
+2024.04.05 21:55:03 INFO  Shut down connection with build server.
+2024.04.05 21:55:03 INFO  Exiting server

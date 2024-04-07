@@ -1,0 +1,4 @@
+[debug] [actors-test] Classpath dependencies List()
+[debug] [actors-test] Dependencies from configurations List(actors)
+[debug] Bloop wrote the configuration of project 'actors-test' to 'C:\learning\zymposium\actors\.bloop\actors-test.json'
+[success] Generated .bloop\actors-test.json
